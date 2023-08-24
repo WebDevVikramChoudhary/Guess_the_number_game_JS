@@ -23,4 +23,5 @@ form.addEventListener("submit", function (e) {
   ) {
     ans.innerHTML = `you Guessed Wrong, Try a Smaller Number `;
   }
+  number_guessed.value = "";
 });
